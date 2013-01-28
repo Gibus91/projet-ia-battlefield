@@ -72,9 +72,6 @@ public class Balle implements IBelette {
 		if(!active) return;
 		Color cl;
 		switch(firedby.getColor()){
-		case BattleField.BLUE:
-			cl=Color.BLUE;
-			break;
 		case BattleField.RED:
 			cl=Color.RED;
 			break;
